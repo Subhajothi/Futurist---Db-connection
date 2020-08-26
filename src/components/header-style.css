@@ -1,0 +1,28 @@
+.header-container{
+    display: flex;
+    height: 75px;
+    align-items: center;
+    justify-content: space-between;
+    background-color:white;
+    }
+    .profile-icon-container{
+        padding-right:20px;
+        display: flex;
+       
+    }
+    .header-image{
+        height: 75px;
+    }
+    .header-text{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:30px;
+        font-style: italic;
+        color:green
+    }
+    .title{
+       display: block;
+    }
+    .icon{
+        padding: 5px;
+        size: 3px;
+    }

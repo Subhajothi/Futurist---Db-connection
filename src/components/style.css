@@ -1,0 +1,129 @@
+h1 {
+    text-align: center;
+    color: darkblue;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+#line1 {
+    font-size: 22px;
+    margin-left: 10%;
+    width: 80%;
+    word-spacing: 4px;
+    text-align: center;
+}
+
+#line2 {
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: 10%;
+    width: 80%;
+    word-spacing: 4px;
+    text-align: center;
+}
+
+input[type=text] {
+    font-size: x-large;
+    border: none;
+    width: 100%;
+    height: 90px;
+    }
+
+input::placeholder {
+    color: black;
+    font-weight: 600;
+    width: 100%;
+    font-size: large;
+}
+
+.field {
+    width: 25%;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    -moz-box-shadow: 5px 5px 1px rgb(201, 201, 201);
+    -webkit-box-shadow: 5px 5px 1px rgb(201, 201, 201);
+    box-shadow: 5px 5px 1px rgb(201, 201, 201);
+}
+
+form {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#captcha {
+    padding-left: 15%;
+    width: 15%;
+    float: left;
+    height: 50px;
+}
+
+#rcaptcha {
+    height: 30px;
+}
+
+#submit {
+    width: 50%;
+    float: left;
+}
+
+#submit input {
+    margin-left: 70%;
+    width: 20%;
+    height: 40px;
+    background-color: green;
+    border: none;
+}
+
+.clear {
+    clear: both;
+}
+
+
+#Home {
+    margin-top:1%;
+    margin-bottom:2%;
+    margin-left: 57%;
+    font-weight:bolder;
+    font-size: 110%;
+    border: none;
+    font-family:courier,arial,helvetic;
+}
+
+/* #Home{
+    width: 100px;
+    height: 17px;
+    overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
+    background: url(dropdown.png) no-repeat right white;
+    border: 2px double red;
+    display: inline-block;
+    position: relative;
+  } */
+#Events{
+    
+    margin-top:1%;
+    margin-left:2%;
+    font-weight:bolder;
+    font-size: 110%;
+    border: none;
+    font-family:courier,arial,helvetic;
+}
+#Community{
+    margin-top:1%;
+    margin-left: 2%;
+    font-weight:bolder;
+    font-size: 110%;
+    border: none;
+    font-family:courier,arial,helvetic;
+}
+#About{
+    margin-top:1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-weight:bolder;
+    font-size: 110%;
+    border: none;
+    font-family:courier,arial,helvetic;
+}
