@@ -4,7 +4,7 @@ import './Dropdown.css';
 import { Link } from 'react-router-dom';
 
 function Dropdown() {
-  const [click, setClick] = useState(false);
+  const [click, setClick] = useState(true);
 
   const handleClick = () => setClick(!click);
 
@@ -20,7 +20,7 @@ function Dropdown() {
               <Link
                 className={item.cName}
                 to={item.path}
-                onClick={() => setClick(false)}
+                onClick={() => setClick(true)}
               >
                 {item.title}
               </Link>
