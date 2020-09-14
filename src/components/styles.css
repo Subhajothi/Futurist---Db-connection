@@ -1,0 +1,24 @@
+
+.top-container{
+  line-height: 50px;
+  justify-content: space-between;
+  background-color: mediumblue;
+  color: white;
+  font-weight: bold;
+}
+.header-image{
+  float: right;
+  
+}
+.link{
+  color: white;
+}
+.bottom-container{
+line-height: 50px;
+justify-content: space-between;
+background-color: mediumblue;
+color: white;
+font-weight: bold;
+}
+
+
