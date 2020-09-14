@@ -1,8 +1,3 @@
-# React Axios Tutorial
-React Axios Tutorial - Learn to make HTTP GET and POST Requests using Axios library. Create and consume REST APIs built with Node, Express and MongoDB. 
-
-## Step by Step Tutorial
-[React Axios Tutorial - Make HTTP GET and POST Requests](https://www.positronx.io/react-axios-tutorial-make-http-get-post-requests/)
 
 
 ### `npm start`
