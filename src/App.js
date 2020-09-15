@@ -6,7 +6,7 @@ import CreateUser from "./components/create-user.component.js";
 import Carousel from "./components/Carouse.js";
 import Header from "./components/Navbar.js";
 import  Footer from './components/footer.js'
-// const Carousel = loadable(() => import('./components/Carouse.js'))
+import userdetails from "./components/Display-UserDetails.js"
 // const Header = loadable(() => import('./components/Navbar.js'))
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
             <Switch>
               <Route exact path='/' component={Carousel} />
               <Route path="/create" component={CreateUser} />
+              <Route path="/user" component={userdetails} />
               
             </Switch>
             <Footer />
