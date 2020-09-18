@@ -42,15 +42,24 @@
 }
 
 .nav-item {
-  display: flex;
-  align-items: center;
+  display: inherit;
+  align-items: normal;
+  height: 40px;
+  width: 130px;
+}
+.nav-item1 {
+  display: inherit;
+  align-items: normal;
   height: 80px;
+  width: 200px;
 }
 
 .nav-links {
   color: black;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  width: max-content;
+  height: 60px;
 }
 
 .nav-links:hover {
