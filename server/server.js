@@ -6,7 +6,7 @@ let database = require('./database/db');
 
 
 const userRoute = require('../server/routes/user.routes')
-
+const radarRoute = require('../server/routes/radar.routes')
 
 mongoose.Promise = global.Promise;
 mongoose.connect(database.db, {
@@ -26,7 +26,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(cors());
 app.use('/users', userRoute)
-
+app.use('/radar', radarRoute)
 
 const port = process.env.PORT || 4000;
 const server = app.listen(port, () => {
