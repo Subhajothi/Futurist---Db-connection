@@ -17,8 +17,8 @@ class Carouse extends React.Component {
           <a href="https://www.facebook.com/" className="link" rel="noopener noreferrer"><b>VODKA /&nbsp;</b></a>
           <a href="https://www.facebook.com/" className="link" rel="noopener noreferrer"><b>JAVASCRIPTS</b></a> 
           <img className="header-image" src={logo} alt="logo" /> 
-        {/* </div>
-        <div> */}
+        </div>
+          <div className="al">
         <Carousel>
         <Carousel.Item>
             <img src={slide1} alt="First slide" />
